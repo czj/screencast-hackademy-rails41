@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 
 
+gem 'spring', group: :development
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use postgresql as the database for Active Record
-gem 'pg'
+gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -23,9 +26,6 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
-
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
@@ -36,7 +36,6 @@ gem 'activemerchant'
 gem 'acts_as_list'
 gem 'ancestry'
 gem 'attribute_normalizer'
-gem 'authlogic'
 gem 'authlogic'
 gem 'axlsx'
 gem 'bootstrap'
@@ -56,7 +55,6 @@ gem 'sidekiq'
 gem 'simple_form'
 gem 'sitemap_generator'
 gem 'slim-rails'
-gem 'stringex'
 gem 'stringex'
 gem 'tire'
 gem 'will_paginate'
